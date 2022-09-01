@@ -11,16 +11,16 @@
         width: 92%;
         width: calc(100% - 46px);
         width: -moz-calc(100% - 46px);
-        width: -webkit-calc(100% - 46px);
+        width: -webkit-calc(100% );
     }
 
   }
   @include desktop{
     &.nonactive{
-      width: 97%;
+      width: 100%;
       width: calc(100% - 46px);
       width: -moz-calc(100% - 46px);
-      width: -webkit-calc(100% - 46px);
+      width: -webkit-calc(100% );
     } 
   }
 }
