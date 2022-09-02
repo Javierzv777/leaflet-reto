@@ -1,5 +1,6 @@
 import 'leaflet/dist/leaflet.css';
 import './map.scss';
+import './plugins/pan/L.Control.Pan'
 
 const L =require ('leaflet');
 
@@ -13,11 +14,13 @@ import { catastro } from './layers/predios-catastro';
 import { perimetro } from './layers/perimetro';
 import red from '../../assets/img/rojo.png'
 
+var ctlPan;
 
 export var map = L.map('map', {
     
     center: [10.494444, -75.124167],
     zoom: 15,
+    zoomControl: false,
     layers: [OpenStreetMap_HOT]
 });
 
@@ -37,7 +40,8 @@ var iconBase = L.icon({
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 })
 
-
+ctlPan = new L.control.pan();
+ctlPan.addTo(map);
 
 new L.marker([10.494444, -75.124167], {icon: iconBase}).addTo(map).bindTooltip(`<div><p>Repelón</p></div>`,{
     opacity: 1,
