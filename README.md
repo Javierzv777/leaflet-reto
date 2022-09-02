@@ -1,5 +1,6 @@
 <h1>Resultado</h1>
 <a href="https://capable-taiyaki-6f361f.netlify.app"> Ir a la página</a>
+</br></br></br>
 <img src= "https://i.ibb.co/3mzxn7d/mapa-final.png"/>
 
 # Instrucciones de la prueba
