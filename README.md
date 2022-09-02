@@ -1,3 +1,7 @@
+<h1>Resultado</h1>
+<a href="https://capable-taiyaki-6f361f.netlify.app"></a>
+<img src= "https://i.ibb.co/3mzxn7d/mapa-final.png"/>
+
 # Instrucciones de la prueba
 Esta es una prueba que permite interactuar con un visor de información geográfica.
 
