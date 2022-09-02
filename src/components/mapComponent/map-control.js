@@ -2,6 +2,7 @@ import 'leaflet/dist/leaflet.css';
 import './map.scss';
 import './plugins/pan/L.Control.Pan'
 
+
 const L =require ('leaflet');
 
 import {carto_light} from './layers/control-layers'
